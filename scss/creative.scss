@@ -1,0 +1,27 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "services.scss";
+@import "portfolio.scss";
+@import "bootstrap-overrides.scss";
+
+.icons {
+  div {
+    margin: 0 auto;
+    width: 50%;
+  }
+  a {
+    i {
+      color: #f05f40;
+      font-size: 8vh;
+      margin: 2vh;
+      transition: font-size 0.3s ease-in-out;
+    }
+
+    i:hover {
+      font-size: 9vh;
+    }
+  }
+}
